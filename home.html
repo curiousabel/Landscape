@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- local stylesheet -->
+    <link rel="stylesheet" href="./home.css">
+    <!-- Animation StyleSheet  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>LOL&Desgin |</title>
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success mx-auto">
+        <a class="navbar-brand" style="font-weight: 900; color: #f8f9fa;" href="#">LOL&Desgin</a>
+        <button class="navbar-toggler" style="border-color: white;" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse ml-5" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="container-fluid loadingpage animated  slideOutUp  delay-1s bg-success" id="loader">
+
+        <div class="container textWhite">
+            <h1 class="text-center pt-5 fadeWelcome  text-uppercase"> Welcome To </h1>
+            <h3 class="text-center pt-3 textWhite">LandScape And Desgin</h3>
+            <div class="container text-center">
+                <div class="spinner-border" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <main style="display: none;" id="maincontent">
+        <div class="jumbotron text-center animated zoomIn ">
+            <div class="container-fluid  py-auto center">
+                <h1 class="display-4 text-uppercase animated slideInUp  fast" style="color: white;
+               
+                    font-size: 3.125em;
+                    font-weight: 300;
+                ">LandScape and Desgin </h1>
+
+
+            </div>
+            <p><a class="btn btn-success btn-lg animated slideInUp  slow" href="#" role="button"
+                    style="border-radius: 25px;">Get Started Today</a>
+            </p>
+        </div>
+
+
+        <div class="container-fluid bg-success " style="height: 400px; color: white;">
+            <h2 class="text-center  text-uppercase p-5"> 6 Years Of LandScape Exelllence</h2>
+        </div>
+
+
+        <div class="container-fluid my-4 mx-auto img-fluid" style=" background-color:#28a745;">
+            <div class="row  mx-auto pt-3 pb-2">
+                <div class="col-md-4  " style="width: 400px; height: 400px; ">
+                    <div class="container-fluid "
+                        style=" background-image: url(./img/Driveway/Pad.jpg); background-repeat: no-repeat;  height: 380px;">
+                        1 of 3
+                    </div>
+                </div>
+                <div class="col-md-4  " style="width: 400px; height: 400px; ">
+                    <div class="container-fluid "
+                        style=" background-image: url(./img/Driveway/Pad.jpg); background-repeat: no-repeat;  height: 380px;">
+                        2 of 3
+                    </div>
+                </div>
+                <div class="col-md-4 " style="width: 400px; height: 400px; ">
+                    <div class="container-fluid "
+                        style=" background-image: url(./img/Driveway/Pad.jpg); background-repeat: no-repeat;  height: 380px;">
+                        3 of 3
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- <footer class="blog-footer animated zoomIn delay-2s">
+            <p>
+                <a href="#"><img src="./img/Button/up.png" style="width: 50px; height: 50px;"></a>
+            </p>
+
+
+        </footer> -->
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("maincontent").style.display = "block";
+        }
+    </script>
+
+    <script>
+        function removeElement(elementId) {
+            // Removes an element from the document
+            var element = document.getElementById(elementId);
+            element.parentNode.removeChild(element);
+        }
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
