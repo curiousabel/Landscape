@@ -18,8 +18,8 @@
 
 <body onload="myFunction()" style="margin:0;">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success mx-auto">
-        <a class="navbar-brand" style="font-weight: 900; color: #f8f9fa;" href="#">LOL&Desgin</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success mx-auto sticky-top">
+        <a class="navbar-brand text-uppercase" style="font-weight: 900; color: #f8f9fa;" href="#">LOL&Desgin</a>
         <button class="navbar-toggler" style="border-color: white;" type="button" data-toggle="collapse"
             data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,14 +31,15 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#gallary">Service & Design</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
+
             </ul>
         </div>
 
@@ -48,7 +49,7 @@
 
         <div class="container textWhite">
             <h1 class="text-center pt-5 fadeWelcome  text-uppercase"> Welcome To </h1>
-            <h3 class="text-center pt-3 textWhite">LandScape And Desgin</h3>
+            <h3 class="text-center pt-3 textWhite text-uppercase">LandScape And Desgin</h3>
             <div class="container text-center">
                 <div class="spinner-border" role="status">
                     <span class="sr-only">Loading...</span>
@@ -75,41 +76,205 @@
         </div>
 
 
-        <div class="container-fluid bg-success " style="height: 400px; color: white;">
+        <div id="about" class="container-fluid bg-success mb-3 animated zoomIn delay-2s " x style=" color: white;">
             <h2 class="text-center  text-uppercase p-5"> 6 Years Of LandScape Exelllence</h2>
-        </div>
-
-
-        <div class="container-fluid my-4 mx-auto img-fluid" style=" background-color:#28a745;">
-            <div class="row  mx-auto pt-3 pb-2">
-                <div class="col-md-4  " style="width: 400px; height: 400px; ">
-                    <div class="container-fluid "
-                        style=" background-image: url(./img/Driveway/Pad.jpg); background-repeat: no-repeat;  height: 380px;">
-                        1 of 3
-                    </div>
+            <div class="row">
+                <div class="col-md-6 animated slideInUp  fast delay-2s ">
+                    <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
-                <div class="col-md-4  " style="width: 400px; height: 400px; ">
-                    <div class="container-fluid "
-                        style=" background-image: url(./img/Driveway/Pad.jpg); background-repeat: no-repeat;  height: 380px;">
-                        2 of 3
-                    </div>
-                </div>
-                <div class="col-md-4 " style="width: 400px; height: 400px; ">
-                    <div class="container-fluid "
-                        style=" background-image: url(./img/Driveway/Pad.jpg); background-repeat: no-repeat;  height: 380px;">
-                        3 of 3
-                    </div>
+                <div class="col-md-4 animated slideInUp  slow delay-2s">
+                    <figure class="figure">
+                        <img src="./img/Customers/Teresa_Car.jpg" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption text-white text-right"> Treasa Cartwright
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
 
         </div>
-        <!-- <footer class="blog-footer animated zoomIn delay-2s">
-            <p>
-                <a href="#"><img src="./img/Button/up.png" style="width: 50px; height: 50px;"></a>
-            </p>
 
 
-        </footer> -->
+
+        <div class="container-fluid bg-success mb-3 animated zoomIn delay-2s " id="gallary" style=" color: white;">
+            <h2 class="text-center  text-uppercase p-5"> Gallery</h2>
+            <div class="row">
+                <div class="col-md-3 animated slideInUp  fast delay-2s">
+                    <figure class="figure">
+                        <img src="./img/Driveway/Driveway.jpg" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption text-white text-right"> Treasa Cartwright
+                        </figcaption>
+                    </figure>
+                    <figure class="figure">
+                        <img src="./ProImage/Poolside.png" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption text-white text-right"> Treasa Cartwright
+                        </figcaption>
+                    </figure>
+                    <figure class="figure">
+                        <img src="./ProImage/SlideLine.jpg" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption text-white text-right"> Treasa Cartwright
+                        </figcaption>
+                    </figure>
+                    <!-- <figure class="figure">
+                        <img src="./ProImage/SlideLine.jpg" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption text-white text-right"> Treasa Cartwright
+                        </figcaption>
+                    </figure> -->
+                </div>
+                <div class="col-md-5 animated slideInUp  slow delay-2s">
+                    <figure class="figure">
+                        <img src="./img/East_London/Graden.jpg" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption text-white text-right"> Treasa Cartwright
+                        </figcaption>
+                    </figure>
+                    <figure class="figure">
+                        <img src="./ProImage/PoolSideBack.jpg" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption text-white text-right"> Treasa Cartwright
+                        </figcaption>
+                    </figure>
+                    <figure class="figure">
+                        <img src="./ProImage/Komoka.jpg" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption text-white text-right"> Treasa Cartwright
+                        </figcaption>
+                    </figure>
+
+                </div>
+                <div class="col-md-3 animated slideInUp  slow delay-2s">
+                    <figure class="figure">
+                        <img src="./img/North_London/DeckSide.jpg" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption text-white text-right"> Treasa Cartwright
+                        </figcaption>
+                    </figure>
+                    <figure class="figure">
+                        <img src="./img/Driveway/Land.jpg" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption text-white text-right"> Treasa Cartwright
+                        </figcaption>
+                    </figure>
+                    <figure class="figure">
+                        <img src="./ProImage/Deck.jpg" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption text-white text-right"> Treasa Cartwright
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Section: Contact v.2-->
+        <section class="bg-success mb-5" id="contact">
+            <div class="container bg-whites text-white mb-5 ">
+                <!--Section heading-->
+                <h2 class="h1-responsive font-weight-bold text-center my-4 text-uppercase pt-2">Contact us</h2>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to
+                    contact us directly. Our team will come back to you within
+                    a matter of hours to help you.</p>
+
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-9 mb-md-0 mb-5">
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control">
+                                        <label for="name" class="">Your name</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" name="email" class="form-control">
+                                        <label for="email" class="">Your email</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                            </div>
+                            <!--Grid row-->
+
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <label for="subject" class="">Subject</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-12">
+
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="2"
+                                            class="form-control md-textarea"></textarea>
+                                        <label for="message">Your message</label>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--Grid row-->
+
+                        </form>
+
+                        <div class="text-center ">
+                            <a class="btn " style="border-radius: 20px; background-color: #46c106"
+                                onclick="document.getElementById('contact-form').submit();">Send</a>
+                        </div>
+                        <div class="status"></div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-3 text-center">
+                        <ul class="list-unstyled mb-0">
+                            <li><img class="img-fluid " src="./ProImage/location.png" style="    width: 40px;" />
+                                <p>1884 Avalon St. London, ON , Canada</p>
+                            </li>
+
+                            <li><img class="img-fluid " src="./ProImage/phone.png" style="    width: 30px;" />
+                                <p>+ 226-376-2728</p>
+                            </li>
+
+                            <li><img class="img-fluid" src="./ProImage/email.png" style="    width: 20px;" />
+                                <p>lolanddesign@outlook.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+            </div>
+
+
+        </section>
+        <!--Section: Contact v.2-->
+
+        <footer class="bg-success text-white animated zoomIn delay-2s p-1">
+            <div class="container-fluid">
+                <p class="float-right">
+                    <a href="#"><img src="./img/Button/up.png" style="width: 50px; height: 50px;"></a>
+                </p>
+                <p class="p-2"> @ Copyright 2019 by abel emun</p>
+            </div>
+
+
+        </footer>
     </main>
 
 
